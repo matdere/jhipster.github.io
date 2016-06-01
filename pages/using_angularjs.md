@@ -152,7 +152,7 @@ The shorthand methods `success`, `info`, `warning` and `error` will have a timeo
             // where key i.will.be.translated needs to be in global.json and can have a { param } which will be replaced by `someParam`
 
             AlertService.add({
-                type: "success", // can be success, info, warning and error
+                type: "success", // can be success, info, warning, danger or error
                 msg: msg,
                 params: params, // parameters to pass for translation
                 timeout: timeout // how long to show the alert in milliseconds
